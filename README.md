@@ -99,4 +99,3 @@ PTM_6
     -Program prosi o podanie daty urodzenia w formacie dd.mm.yyyy, czyli 01.05.2000,
     -Oblicza czy osoba ma skończone 18 lat, dla uproszczenia proszę przyjąć dzisiejszą datę jako 08.02.2021,
     -Wyświetla na ekranie komunikat “Jesteś już pełnoletni.” lub “Jeszcze nie masz 18 lat, musisz poczekać: xxx dni”, gdzie xxx to ilość dni jaka pozostała aby dana osoba osiągnęła pełnoletność.
-
