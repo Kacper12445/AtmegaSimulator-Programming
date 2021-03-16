@@ -41,12 +41,12 @@ zadaniem każdej funkcji jest realizacja następującego działania:
 ***************************************************************************************************************************************************************************************************************************************************
 PTM_5
 
-1.PTM5_3
-   Utworzyć program, który w pętli głównej co jedną sekundę zwiększa licznik o 1 – sekundnik, licznik może mieć wartości od 0-255, stan licznika wyświetlany jest w pierwszej linii LCD,
+1. PTM5_3
+   Utworzyć program, który w pętli głównej co jedną sekundę zwiększa licznik o 1 – sekundnik, licznik może mieć wartości od 0-255, stan licznika wyświetlany jest w           pierwszej linii LCD
      -Po wciśnięcia przycisku należy odczytać aktualny licznik i zapisać jego wartość do pamięci eeprom przy użyciu funkcji “eeprom_write_byte”,
      -Każde kolejne wciśnięcie przycisku jest zapisywane do kolejnej komórki pamięci eeprom, maksymalnie może być 100 zapisanych wartości,
      -Indeks aktualnie zapisywanej komórki należy wyświetlić w drugiej linijce wyświetlacza LCD,
-     -Sprawdzić czy poprawnie są zapisywane wartości do pamięci eeprom przez podgląd pliku pamięci, w tym celu po wykonaniu kilku przyciśnięć przycisku należy wykonać operację “Save EEPROM data” dostępne w opcjach mikrokontrolera. Zapisany plik można podglądnąć w notatniku. Powinien zawierać kolejne zapisane czasy naszego programu.
+     -Sprawdzić czy poprawnie są zapisywane wartości do pamięci eeprom przez podgląd pliku pamięci, w tym celu po wykonaniu kilku przyciśnięć przycisku należy wykonać   operację “Save EEPROM data” dostępne w opcjach mikrokontrolera. Zapisany plik można podglądnąć w notatniku. Powinien zawierać kolejne zapisane czasy naszego programu.
 
 2. PTM5_4
    Utworzyć program, który będzie odczytywał kolejne liczby z pamięci eeprom:
